@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 70px;
+	padding-left: 30px;
+	width: 70%;
+	float: none;
+}
+
+.leftfloater {
+  display: block;
+  margin-left: 10px;
+	margin-right: 20px;
+  width: 30%;
+	padding: 2%;
+	float: left;
+}
+
+.title {
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color: black;
+	color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.body {
+		background-color: lightblue;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		float: none;
+		display: block;
+	}
+	.leftfloater {
+		display: block;
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2%;
+		float: none;
+}
+	
+}
+
+@media only screen and (max-width: 375px) {
+	.body {
+		background-color: lightcoral;
+		font-size: 12px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		float: none;
+		display: block;
+	}
+	.leftfloater {
+		display: block;
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 2%;
+		float: none;
+}
+	
+	.title {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background-color: black;
+	color: white;
+}
+	
+}
