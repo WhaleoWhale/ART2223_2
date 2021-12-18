@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mainBackground {
+	position: absolute;
+	width: 50%;
+	z-index: 1;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.plt1 {
+	position: absolute;
+	z-index: 2;
+	animation-name: spin;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-play-state: paused;
+}
+
+.plt1:hover{
+
+    animation-play-state: running;
+
+    }
+
+    
+
+@keyframes spin {
+
+    from {
+
+        transform:rotate(0deg);
+
+    }
+
+    to {
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+
+.plt23 {
+	position: absolute;
+	z-index: 3;
+	margin-left: 252px;
+}
+
+
+.plt4 {
+	position: absolute;
+	z-index: 4;
+	margin-left: 210px;
+}
+
+.plt4 .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+	margin-left: 210px;
+    }
+
+.plt4:hover .img-top{
+	display: inline;
+}
+
+.plt5 {
+	position: absolute;
+	z-index: 6;
+	margin-left: 245px;
+}
+
+.plt5 .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+	margin-left: 237px;
+    }
+
+.plt5:hover .img-top{
+	display: inline;
+}
+
+.plt6 {
+	position: absolute;
+	z-index: 7;
+	margin-left: 545px;
+}
+
+.title {
+  max-width: 300px;
+  height: 50px;
+  background-color: darkgray;
+}
+
+.titletext {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-bottom: auto;
+	margin-left: 35px;
+}
+
+.bodytext {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+
